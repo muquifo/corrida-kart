@@ -1,7 +1,9 @@
 package com.murilo.corridakart.service
 
+import com.murilo.corridakart.exception.SemDadosException
 import com.murilo.corridakart.model.ParciaisPiloto
 import com.murilo.corridakart.model.Piloto
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import java.time.LocalTime
@@ -34,6 +36,17 @@ class ResultadoPilotoTest {
         assertEquals(parcialPiloto.getValue(3).tempoVolta, resultadoPilotos.getValue("1").tempoMelhorVolta)
         assertEquals(parcialPiloto.getValue(1).tempoVolta, resultadoPilotos.getValue("2").tempoMelhorVolta)
         assertEquals(parcialPiloto.getValue(5).tempoVolta, resultadoPilotos.getValue("3").tempoMelhorVolta)
+
+    }
+
+    @Test
+    fun `Dado as parciais quando vazia deve retornar uma exception` () {
+
+        val parciaisPilotos: List<ParciaisPiloto> = listOf()
+
+        Assertions.assertThrows(SemDadosException::class.java) {
+            ResultadoPiloto().obtemResultadoPilotos(parciaisPilotos)
+        }
 
     }
 
