@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baadce6d-4b07-4ea0-97ba-310760e29c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/murilo_m_carvalho.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoPilotoTest$Dado as parciais quando vazia deve retornar uma exception$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoPilotoTest$Dado as parciais quando vazia deve retornar uma exception$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoPilotoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoPilotoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoCorridaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoCorridaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/corridakart-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/corridakart-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/corridakart-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.murilo.corridakart.service.ResultadoCorridaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.murilo.corridakart.service.ResultadoCorridaTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.murilo.corridakart.service.ResultadoPilotoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.murilo.corridakart.service.ResultadoPilotoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.murilo.corridakart.service.ResultadoCorridaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.murilo.corridakart.service.ResultadoCorridaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoCorridaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/murilo/corridakart/service/ResultadoCorridaTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,30 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/CorridaKart.kt">
+        <entry file="file://$PROJECT_DIR$/SUAS-INSTRUÇÕES.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#229#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SUAS-INSTRUÇÕES.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,11 +65,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/service/ResultadoPiloto.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="93">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding>
                 <element signature="e#40#205#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/model/ResultadoGeralPiloto.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -107,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoCorridaTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="233">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -116,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            <state relative-caret-position="522">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -132,8 +135,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoPilotoTest.kt" />
         <option value="$PROJECT_DIR$/SUAS-INSTRUÇÕES.txt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoCorridaTest.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -216,6 +228,11 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="corridakart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corrida-kart" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.CorridaKartKt">
+  <component name="RunManager" selected="JUnit.ResultadoCorridaTest.Dado as parciais quando obter todos os pilotos desclassificados deve retornar uma exception">
     <configuration name="All in corridakart (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="corridakart" />
       <option name="PACKAGE_NAME" value="" />
@@ -256,6 +273,22 @@
       <module name="corridakart" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultadoCorridaTest.Dado as parciais quando obter todos os pilotos desclassificados deve retornar uma exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="corridakart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.murilo.corridakart.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.murilo.corridakart.service" />
+      <option name="MAIN_CLASS_NAME" value="com.murilo.corridakart.service.ResultadoCorridaTest" />
+      <option name="METHOD_NAME" value="Dado as parciais quando obter todos os pilotos desclassificados deve retornar uma exception" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,6 +324,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResultadoCorridaTest.Dado as parciais quando obter todos os pilotos desclassificados deve retornar uma exception" />
         <item itemvalue="Kotlin.CorridaKartKt" />
         <item itemvalue="JUnit.All in corridakart (1)" />
         <item itemvalue="JUnit.ResultadoPilotoTest.Dado as parciais quando vazia deve retornar uma exception" />
@@ -324,6 +358,9 @@
     <history-entry file="All_in_corridakart_(1) - 2019.07.23 at 22h 57m 22s.xml">
       <configuration name="All in corridakart (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ResultadoCorridaTest_Dado_as_parciais_quando_obter_todos_os_pilotos_desclassificados_deve_retornar_uma_exception - 2019.07.24 at 09h 05m 09s.xml">
+      <configuration name="ResultadoCorridaTest.Dado as parciais quando obter todos os pilotos desclassificados deve retornar uma exception" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -338,14 +375,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51232874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5109589" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34931508" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -382,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/service/ResultadoPiloto.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/service/ResultadoCorrida.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -412,31 +439,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SUAS-INSTRUÇÕES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/service/ResultadoPiloto.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="e#40#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/murilo/corridakart/model/ResultadoGeralPiloto.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/murilo/corridakart/service/ResultadoCorridaTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="233">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        <state relative-caret-position="522">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SUAS-INSTRUÇÕES.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>

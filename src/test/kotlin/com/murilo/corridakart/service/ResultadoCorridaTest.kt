@@ -80,7 +80,7 @@ class ResultadoCorridaTest {
         val tempoVolta = LocalTime.of(0,1,2,0)
 
         val parcialPiloto = hashMapOf(
-            0 to ParciaisPiloto(hora, Piloto("1","Piloto 1"),2,
+            0 to ParciaisPiloto(hora, Piloto("1","Piloto 1"),4,
                 tempoVolta, 43.243),
             1 to ParciaisPiloto(hora.plusMinutes(1), Piloto("2","Piloto 2"),2,
                 tempoVolta.plusMinutes(2), 41.243),
