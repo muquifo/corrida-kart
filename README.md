@@ -13,7 +13,7 @@ mvn clean package
 
 ## Executar Aplicação
 ```
-java -jar target/corridakart-1.0.jar
+java -jar target/corridakart.jar
 ```
 
 ## Executar Tests
