@@ -4,7 +4,7 @@ Programa calcula o resultado de uma corrida de kart com base em um arquivo de lo
 ```
 Kotlin 1.3.41
 ```
-* Eexecutar todos os comandos na raiz do projeto em um terminal
+* Executar todos os comandos na raiz do projeto em um terminal
 
 ## Build
 ```

@@ -1,0 +1,22 @@
+Arquivo do log da corrida:
+ * O arquivo deve ficar no pacote do projeto dentro do diretório [resources]
+ * O arquivo deve ter o nome de: log_corrida.txt
+
+Regras da corrida:
+ * A corrida tem 4 voltas
+ * O piloto que não completar todas as voltas está desclassificado
+ * Caso nenhum piloto complete a corrida, ou seja, todos desclassificados, a corrida é cancelada
+
+Resultado da corrida:
+    Resultado Final
+        * Será exibido a colocação do piloto, código piloto, nome piloto, qtde de voltas completas e o tempo total de prova
+
+    Melhor Volta
+        * Será exibido a melhor volta da corrida com o código do piloto, nome e o tempo de sua melhor volta
+
+    Detalhe Corrida
+        * Será exibido o tempo de melhor volta, velocidade média da corrida e o tempo após o vencedor de cada piloto
+
+    Desclassificados
+        * Será exibido os pilotos que não completaram a corrida, seu código, nome, qtde de voltas completas,
+        tempo da melhor volta e a velocidade média da corrida
