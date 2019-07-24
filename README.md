@@ -20,3 +20,6 @@ java -jar target/corridakart-1.0.jar
 ```
 mvn test
 ```
+
+
+### [Veja as instruções](https://github.com/muquifo/corrida-kart/blob/master/SUAS-INSTRU%C3%87%C3%95ES.txt)
